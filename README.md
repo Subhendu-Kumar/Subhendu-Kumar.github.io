@@ -6,3 +6,6 @@
 <a href="https://linkedin.com/in/subhendu-kumar-dutta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="subhendu-kumar-dutta" height="30" width="40" /></a>
 <a href="https://github.com/Subhendu-Kumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="subhendu-kumar-dutta" height="30" width="40" /></a>
 </p>
+
+<h3 align="left">Visit my portfolio:</h3>
+<a href="https://subhendu.me/portfolio" target="blank"><img align="center" src="https://raw.githubusercontent.com/Subhendu-Kumar/portfolio/refs/heads/main/public/logo1.png" alt="subhendu-kumar-dutta" height="30" width="40" /></a>
