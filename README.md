@@ -8,4 +8,4 @@
 </p>
 
 <h3 align="left">Visit my portfolio:</h3>
-<a href="https://subhendu.me/portfolio" target="blank"><img align="center" src="https://raw.githubusercontent.com/Subhendu-Kumar/portfolio/refs/heads/main/public/logo1.png" alt="subhendu-kumar-dutta" height="30" width="40" /></a>
+<a href="https://subhendu.me/portfolio" target="blank"><img align="center" src="https://raw.githubusercontent.com/Subhendu-Kumar/portfolio/refs/heads/main/public/logo1.png" alt="subhendu-kumar-dutta" height="40" width="40" /></a>
