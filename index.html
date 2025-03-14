@@ -5,35 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Web Page</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="py-16 px-10 m-0 flex items-center justify-center h-screen w-full">
-    <div class="w-1/3 h-full flex flex-col items-center justify-start gap-2">
-        <div class="w-72 h-72 rounded-full bg-blue-100 overflow-hidden">
-            <img src="me.png" alt="image" class="w-full h-full object-center object-cover">
+<body class="m-0">
+    <div
+        class="py-16 lg:px-10 px-4 flex lg:flex-row flex-col items-center justify-center lg:h-screen min-h-screen w-full">
+        <div class="lg:w-1/3 w-full h-full flex flex-col items-center justify-start gap-2">
+            <div class="w-64 h-64 rounded-full bg-blue-100 overflow-hidden">
+                <img src="https://res.cloudinary.com/dzifzjy5a/image/upload/v1741926835/images/xb7vxpjx6rgmaapjpz8f.png"
+                    alt="image" class="w-full h-full object-center object-cover">
+            </div>
+            <h1 class="lg:mt-6 mt-2 text-4xl font-bold font-sans">Subhendu Kumar</h1>
+            <p class="text-lg font-semibold hidden md:block font-sans">Building Scalable and Efficient Web Applications
+            </p>
+            <p class="text-sm text-center font-medium font-sans">Full-Stack Developer, Problem Solver, and Technology
+                Enthusiast. Passionate about crafting seamless user
+                experiences and robust backend systems.</p>
         </div>
-        <h1 class="mt-6 text-4xl font-bold font-sans">Subhendu Kumar</h1>
-        <p class="text-lg font-semibold font-sans">Building Scalable and Efficient Web Applications</p>
-        <p class="text-base text-center font-medium font-sans">Full-Stack Developer, Problem Solver, and Technology
-            Enthusiast. Passionate about crafting seamless user
-            experiences and robust backend systems.</p>
-    </div>
-    <div class="w-2/3 px-10 h-full flex flex-col items-start justify-start">
-        <div class="w-full grid grid-cols-4 gap-8 grid-rows-2 h-96">
-            <a href="https://github.com/Subhendu-Kumar" target="_blank"
-                class="col-span-2 p-6 row-span-2 bg-[#f5f7fd] rounded-xl border border-gray-200 hover:bg-blue-50 cursor-pointer transition-all duration-300 ease-in-out flex flex-col justify-between">
-                <div class="w-full h-auto flex items-center justify-between">
+        <div class="lg:w-2/3 w-full lg:px-10 md:px-6 px-4 h-full flex flex-col items-start justify-start lg:mt-0 mt-10">
+            <div class="w-full grid lg:grid-cols-4 grid-cols-1 md:grid-cols-3 gap-8 lg:grid-rows-3 lg:h-[576px]">
+                <a href="https://github.com/Subhendu-Kumar" target="_blank"
+                    class="col-span-2 lg:p-6 md:p-4 p-3 row-span-2 bg-[#f5f7fd] rounded-xl border border-gray-200 hover:bg-blue-50 cursor-pointer transition-all duration-300 ease-in-out flex flex-col lg:justify-between justify-start gap-4">
+                    <div class="w-full h-auto flex items-center justify-between">
+                        <img align="center"
+                            src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                            alt="subhendu_330" height="40" width="40" />
+                        <button
+                            class="px-3 py-0.5 bg-black text-white font-sans font-semibold text-lg rounded-lg">Follow</button>
+                    </div>
+                    <div class="w-full aspect-[16/10] bg-green-100 overflow-hidden rounded-lg">
+                        <img src="https://res.cloudinary.com/dzifzjy5a/image/upload/v1741926730/images/uq93naaddkduhtlzylrv.png"
+                            alt="image" class="w-full h-full object-center object-cover">
+                    </div>
+                </a>
+                <a href="https://twitter.com/subhendu_330" target="_blank"
+                    class="w-full lg:p-6 md:p-4 p-3 hidden bg-[#f5f7fd] rounded-xl border border-gray-200 hover:bg-blue-50 cursor-pointer transition-all duration-300 ease-in-out lg:flex flex-col justify-between">
                     <img align="center"
-                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
                         alt="subhendu_330" height="40" width="40" />
+                    <p>Twitter</p>
                     <button
                         class="px-3 py-0.5 bg-blue-500 text-white font-sans font-semibold text-lg rounded-lg">Follow</button>
-                </div>
-                <div class="w-full aspect-[16/10] bg-green-100 overflow-hidden rounded-lg">
-                    <img src="github-profile.png" alt="image" class="w-full h-full object-center object-cover">
-                </div>
-            </a>
+                </a>
+                <a href="https://www.linkedin.com/in/subhendu-kumar-dutta" target="_blank"
+                    class="w-full lg:p-6 md:p-4 p-3 hidden bg-[#f5f7fd] rounded-xl border border-gray-200 hover:bg-blue-50 cursor-pointer transition-all duration-300 ease-in-out lg:flex flex-col justify-between">
+                    <img align="center"
+                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                        alt="subhendu_330" height="40" width="40" />
+                    <p>Linkedin</p>
+                    <button
+                        class="px-3 py-0.5 bg-blue-500 text-white font-sans font-semibold text-lg rounded-lg">Follow</button>
+                </a>
+                <a href="https://twitter.com/subhendu_330" target="_blank"
+                    class="w-full md:p-4 col-span-2 md:col-span-1 lg:hidden block lg:p-6 p-3 bg-[#f5f7fd] rounded-xl border border-gray-200 hover:bg-blue-50 cursor-pointer transition-all duration-300 ease-in-out flex flex-col justify-between">
+                    <img align="center"
+                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
+                        alt="subhendu_330" height="40" width="40" />
+                    <p>Twitter</p>
+                    <button
+                        class="px-3 py-0.5 bg-blue-500 text-white font-sans font-semibold text-lg rounded-lg">Follow</button>
+                </a>
+                <a href="https://www.linkedin.com/in/subhendu-kumar-dutta" target="_blank"
+                    class="w-full md:p-4 col-span-2 md:col-span-1 lg:hidden block lg:p-6 p-3 bg-[#f5f7fd] rounded-xl border border-gray-200 hover:bg-blue-50 cursor-pointer transition-all duration-300 ease-in-out flex flex-col justify-between">
+                    <img align="center"
+                        src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                        alt="subhendu_330" height="40" width="40" />
+                    <p>Linkedin</p>
+                    <button
+                        class="px-3 py-0.5 bg-blue-500 text-white font-sans font-semibold text-lg rounded-lg">Follow</button>
+                </a>
+                <a href="/portfolio"
+                    class="w-full lg:p-6 md:p-4 p-3 col-span-2 lg:col-span-2 md:col-span-1 bg-purple-50/[0.5] rounded-xl border border-gray-200 hover:bg-purple-50 cursor-pointer transition-all duration-300 ease-in-out flex flex-col justify-between">
+                    <img align="center"
+                        src="https://raw.githubusercontent.com/Subhendu-Kumar/portfolio/refs/heads/main/public/logo1.png"
+                        alt="subhendu-kumar-dutta" height="40" width="40" />
+                    <p>Portfolio</p>
+                    <button
+                        class="px-3 py-0.5 bg-purple-500 text-white font-sans font-semibold text-lg rounded-lg">Visit</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1kqIpb0s8rTbZfbiF4RUZABcPNPBpDkzG/view?usp=sharing"
+                    target="_blank"
+                    class="w-full lg:p-6 md:p-4 p-3 col-span-2 bg-orange-50/[0.5] rounded-xl border border-gray-200 hover:bg-orange-50 cursor-pointer transition-all duration-300 ease-in-out flex flex-col justify-between">
+                    <img align="center" src="drive.svg" alt="subhendu_330" height="40" width="40" />
+                    <p>Resume</p>
+                    <button
+                        class="px-3 py-0.5 bg-orange-500 text-white font-sans font-semibold text-lg rounded-lg">View</button>
+                </a>
+                <a href="mailto:subhendukumardutta330@gmail.com" target="_blank"
+                    class="w-full lg:p-6 md:p-4 p-3 lg:col-span-2 col-span-2 md:col-span-3 bg-green-50/[0.5] rounded-xl border border-gray-200 hover:bg-green-50 cursor-pointer transition-all duration-300 ease-in-out flex flex-col justify-between">
+                    <img align="center" src="gmail.svg" alt="subhendu_330" height="40" width="40" />
+                    <p>Email</p>
+                    <button
+                        class="px-3 py-0.5 bg-green-500 text-white font-sans font-semibold text-lg rounded-lg">Connect</button>
+                </a>
+            </div>
         </div>
     </div>
 </body>
